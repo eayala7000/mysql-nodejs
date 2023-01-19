@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "serve": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeder": "node dbseeder.js"
   },
   "keywords": [
     "nodejs",
@@ -13,11 +14,16 @@
     "mysql",
     "restapi"
   ],
-  "author": "bezkoder",
+  "author": "edsel",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mysql": "^2.18.1"
+    "faker": "^6.6.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
   }
 }
