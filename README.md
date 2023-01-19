@@ -31,3 +31,8 @@ npm run seeder
 ```
 
 ### Postman collection file attached in email
+- Get all users
+- Create user
+- Update user by id
+- Delete user by id
+- Delete all users 
