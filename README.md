@@ -1,4 +1,5 @@
 ## Project setup
+Nodejs with MySQL
 ```
 npm install
 ```
